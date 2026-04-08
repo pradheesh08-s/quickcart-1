@@ -1,0 +1,31 @@
+.category-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.category-title {
+  font-size: 2rem;
+  color: #333;
+}
+
+.empty-category {
+  background: white;
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+  text-align: center;
+  color: #555;
+}
+
+.back-home-link {
+  display: inline-block;
+  margin-top: 14px;
+  color: #667eea;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.back-home-link:hover {
+  text-decoration: underline;
+}
